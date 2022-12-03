@@ -1,26 +1,41 @@
 {
-    "title": "Token Metadata",
-    "type": "object",
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "Identifies the asset to which this token represents"
-        },
-        "decimals": {
-            "type": "integer",
-            "description": "The number of decimal places that the token amount should display - e.g. 18, means to divide the token amount by 1000000000000000000 to get its user representation."
-        },
-        "description": {
-            "type": "string",
-            "description": "Describes the asset to which this token represents"
-        },
-        "image": {
-            "type": "https://cryptocultcurt.github.io/nftjson/photo_2022-12-02%2012.24.36.png",
-            "description": "A URI pointing to a resource with mime type image/* representing the asset to which this token represents. Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive."
-        },
-        "properties": {
-            "type": "object",
-            "description": "Arbitrary properties. Values may be strings, numbers, object or arrays."
-        }
-    }
+"name": "CryptoCult Earl Access",
+"description": "You have the token, now use it!",
+"image": "https://cryptocultcurt.github.io/nftjson/photo_2022-12-02%2012.24.36.png",
+"edition": 1,
+"date": 1661122519284,
+"attributes": [
+{
+"trait_type": "Background",
+"value": "Moon "
+},
+{
+"trait_type": "Skin",
+"value": "Black and white "
+},
+{
+"trait_type": "Face",
+"value": "none "
+},
+{
+"trait_type": "Mouth",
+"value": "Smile "
+},
+{
+"trait_type": "Eyes",
+"value": "Timid "
+},
+{
+"trait_type": "Outfit",
+"value": "Striped "
+},
+{
+"trait_type": "Headwear",
+"value": "none "
+},
+{
+"trait_type": "Accessories",
+"value": "none "
+}
+]
 }
